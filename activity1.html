@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form</title>
+    <style>
+        option {
+            color: brown;
+        }
+
+        .gender {
+            margin-right: 15px;
+            margin-left: 10px;
+        }
+
+        input {
+            padding-right: 15px;
+            margin-top: 30px;
+            color: brown;
+            text-align: center;
+            border:solid 2px brown;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form" style="color:red; padding: 30px; align-items: center;">
+        <form autocomplete="on">
+
+            <fieldset
+                style="padding-bottom: 30px; padding-top: 2px; background-color: antiquewhite;width: 50%;height: 500%; border-color: brown;">
+
+                <h1 style="padding-left: 45%;">FORM</h1>
+                <P style="padding-left: 35%;">PLEASE FILL IN THIS FORM</P>
+                <label for="NAME" style="padding-right: 10px;">NAME</label>
+                <input type="text" placeholder="FIRST NAME" name="Name" required>
+                <input type="text" placeholder="LAST NAME" name="Name" required>
+                <input type="text" placeholder="SURNAME" name="Name" required> <br>
+                <label for="ADRESS" style=" padding-right: 10px ">ADDRESS</label>
+                <input type="text" name="ADDRESS" placeholder="ADDRESS" required style="width: 50%;"><br>
+              
+                <label for="phone number" style=" padding-right: 10px ">PHONE NUMBER</label>
+                <input type="tel" name="PHONE NUMBER" placeholder="PHONE NUMBER" required><br>
+                <label for="gender">GENDER</label>
+                <Select style="margin-left: 30PX; margin-top: 20PX; border-color: brown;">
+                    <OPtion>SELECT</OPtion>
+                    <OPtion>MALE</OPtion>
+                    <OPtion>FEMALE</OPtion>
+                </Select><br>
+
+                <label for="EMAIL" style="padding-right: 7px">EMAIL</label>
+                <input type="text" name="EMAIL" placeholder="EMAIL" required><br>
+                <label for="PASSWARD" style=" padding-right: 10px ">PASSWARD</label>
+                <input type="password" name="PASSWARD" placeholder="ENTER PASSWARD" required><br>
+
+                <label for="PASSWARD" style=" padding-right: 10px ">CONFIRM PASSWARD</label>
+                <input type="password" name="PASSWARD" placeholder="REENTER PASSWARD" required>
+                <button type="submit"  style="margin-left: 10px; background-color: red;color: white; border: 2px solid brown">SUBMIT</button>
+
+
+
+                
+            </fieldset>
+        </form>
+
+
+
+</script>
+    </div>
+</body>
+
+</html>
